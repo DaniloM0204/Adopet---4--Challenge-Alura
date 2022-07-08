@@ -1,0 +1,353 @@
+* {
+    box-sizing: border-box;
+
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #36D6AD;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.menu li:hover {
+    background-color: #36D6AD;
+}
+
+.aside {
+    padding: 55px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.img-cat {
+    height: 250px;
+    width: 250px;
+}
+
+/*Cabeçalho*/
+
+h1 {
+    text-align: center;
+    font-size: medium;
+}
+
+/*
+.patas{
+width: 5px;
+height: 5px;
+left: 0.02px;
+opacity: 0.1;
+}
+*/
+
+.ctt {
+    padding: 15px;
+    text-align: right;
+}
+
+/*Corpo*/
+.paragrafo {
+
+    /* Parágrafo */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.botoes {
+    text-align: center;
+    line-height: 04;
+}
+
+.btn {
+    font-family: 'Poppins';
+    font-size: inherit;
+    color: white;
+    width: 180px;
+    height: 50px;
+    background: #FC7071;
+    border-radius: 6px;
+    border: 1px outset #FC7071;
+}
+
+.a-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fig-1 {
+    position: absolute;
+    width: 84.03px;
+    height: 415px;
+    right: 0px;
+    top: 199px;
+    opacity: 0.5;
+}
+
+
+/*Rodapé*/
+.rodape {
+    padding: 10%;
+    margin-top: -10%;
+    margin-bottom: -10%;
+    margin-left: -10%;
+    margin-right: -2%;
+    background: #36D6AD;
+    text-align: center;
+    position: relative;
+}
+
+
+/* For desktop: */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/*Cabeçalho*/
+.vetor-1 {
+    position: absolute;
+    width: 529.81px;
+    height: 434.85px;
+    left: -1.17px;
+    top: -1px;
+    opacity: 1.50;
+
+}
+
+.vetor-4 {
+    position: absolute;
+    width: 559.8px;
+    height: 469px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.logo {
+    margin-top: 50%;
+    margin-left: 33%;
+    bottom: 77.51%;
+}
+
+
+@media screen and (max-width: 1920px) {
+
+    /* Tablets: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    body {
+        background-color: rgb(111, 210, 243);
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* Tablets: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    body {
+        background-color: #3772FF;
+        color: white;
+    }
+
+    .img {
+        position: absolute;
+        position: absolute;
+        left: 31.38%;
+        right: 66.12%;
+        top: 5.58%;
+        bottom: 92.5%;
+    }
+
+    /*Cabeçalho*/
+    .vetor-1 {
+        position: absolute;
+        width: 529.81px;
+        height: 434.85px;
+        left: -1.17px;
+        top: -1px;
+        opacity: 1.50;
+
+    }
+
+    .vetor-4 {
+        position: absolute;
+        width: 559.8px;
+        height: 469px;
+        left: 0px;
+        top: 0px;
+
+    }
+
+    .logo {
+        margin-top: 50%;
+        margin-left: 33%;
+        bottom: 77.51%;
+    }
+}
+
+
+
+/* Celular pequeno */
+@media screen and (max-width: 360px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    body {
+        background-color: #3772FF;
+        color: white;
+    }
+
+    .img-c {
+        position: absolute;
+        top: 5%;
+        bottom: 92.26%;
+        padding: 0rem 0rem 0rem 2rem;
+    }
+
+    .img-m {
+        position: absolute;
+        top: 5.23%;
+        bottom: 92.26%;
+        padding: 0rem 0rem 0rem 7rem;
+    }
+
+    /*Cabeçalho*/
+    .vetor-1 {
+        position: absolute;
+        width: 333.25px;
+        height: 273.52px;
+        left: 0.02px;
+        top: 0px;
+        opacity: 1.50;
+    }
+
+    .vetor-4 {
+        position: absolute;
+        width: 352.11px;
+        height: 295px;
+
+    }
+
+    .logo {
+        margin-left: 20%;
+    }
+
+    .forma-2 {
+        position: absolute;
+        left: 270px;
+        top: 220px;
+        opacity: 1.50;
+    }
+
+    h3 {
+        margin-top: auto;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .ilustracao-img {
+        height: 400px;
+    }
+
+    .paragrafo {
+        padding-left: 2rem;
+        width: 270px;
+        /* Parágrafo */
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+
+        color: #FFFFFF;
+    }
+
+}
