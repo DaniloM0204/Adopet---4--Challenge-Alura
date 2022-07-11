@@ -1,0 +1,423 @@
+* {
+    box-sizing: border-box;
+
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #36D6AD;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.menu li:hover {
+    background-color: #36D6AD;
+}
+
+.aside {
+    padding: 55px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.img-cat {
+    height: 250px;
+    width: 250px;
+}
+
+/*Cabeçalho*/
+
+h1 {
+    text-align: center;
+    font-size: medium;
+}
+
+
+.img-u {
+    top: 32px;
+    position: absolute;
+    left: 264px;
+}
+
+
+.ctt {
+    padding: 15px;
+    text-align: right;
+}
+
+/*Corpo*/
+.paragrafo {
+
+    /* Parágrafo */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.botoes {
+    text-align: center;
+    margin: 30px 0px 90px 0px;
+}
+
+.btn-enviar {
+    font-family: 'Poppins';
+    font-size: inherit;
+    color: white;
+    width: 148px;
+    height: 40px;
+    background: #FC7071;
+    border-radius: 6px;
+    border: 1px outset #FC7071;
+}
+
+.a-link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fig-1 {
+    position: absolute;
+    width: 84.03px;
+    height: 415px;
+    right: 0px;
+    top: 199px;
+    opacity: 0.5;
+}
+
+
+/*Rodapé*/
+.rodape {
+    padding: 10%;
+    margin-bottom: -10%;
+    margin-left: -10%;
+    margin-right: -2%;
+    background: #36D6AD;
+    text-align: center;
+    position: relative;
+}
+
+
+/* For desktop: */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/*Cabeçalho*/
+.vetor-1 {
+    position: absolute;
+    width: 529.81px;
+    height: 434.85px;
+    left: -1.17px;
+    top: -1px;
+    opacity: 1.50;
+
+}
+
+.vetor-4 {
+    position: absolute;
+    width: 559.8px;
+    height: 469px;
+    left: 0px;
+    top: 0px;
+
+}
+
+.logo {
+    margin-top: 50%;
+    margin-left: 33%;
+    bottom: 77.51%;
+}
+
+
+@media screen and (max-width: 1920px) {
+
+    /* Tablets: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    body {
+        background-color: white;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* Tablets: */
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    body {
+        background-color: white;
+        color: white;
+    }
+
+    .img {
+        position: absolute;
+        position: absolute;
+        left: 31.38%;
+        right: 66.12%;
+        top: 5.58%;
+        bottom: 92.5%;
+    }
+
+    /*Cabeçalho*/
+    .vetor-1 {
+        position: absolute;
+        width: 529.81px;
+        height: 434.85px;
+        left: -1.17px;
+        top: -1px;
+        opacity: 1.50;
+
+    }
+
+    .vetor-4 {
+        position: absolute;
+        width: 559.8px;
+        height: 469px;
+        left: 0px;
+        top: 0px;
+
+    }
+
+    .logo {
+        color: blue;
+        margin-top: 50%;
+        margin-left: 33%;
+        bottom: 77.51%;
+    }
+}
+
+
+
+/* Celular pequeno */
+@media screen and (max-width: 360px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    body {
+        background-color: #ffffff;
+        color: white;
+    }
+
+    .img-c {
+        position: absolute;
+        top: 5%;
+        bottom: 92.26%;
+        padding: 0rem 0rem 0rem 2rem;
+    }
+
+    .img-m {
+        position: absolute;
+        top: 5.23%;
+        bottom: 92.26%;
+        padding: 0rem 0rem 0rem 7rem;
+    }
+
+    .img-responsive {
+        width: 25%;
+    }
+
+    /*Cabeçalho*/
+    .vetor-1 {
+        position: absolute;
+        width: 333.25px;
+        height: 273.52px;
+        left: 0.02px;
+        top: 0px;
+        opacity: 1.50;
+    }
+
+    .vetor-4 {
+        position: absolute;
+        width: 352.11px;
+        height: 295px;
+
+    }
+
+    .logo {
+        margin-top: 50%;
+        margin-bottom: 10%;
+        margin-left: 25.9%;
+    }
+
+    .form-input {
+        width: fit-content;
+    }
+
+    .lnr-eye {
+        position: absolute;
+        right: 65px;
+        cursor: pointer;
+    }
+
+    .forma-2 {
+        position: absolute;
+        left: 0px;
+        top: 380px;
+        opacity: 1.50;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    h3 {
+        margin-top: auto;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .ilustracao-img {
+        height: 400px;
+    }
+
+    .paragrafo {
+        margin-top: 50%;
+        bottom: 77.51%;
+        text-align: center;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #3772FF;
+    }
+
+    .box {
+        background: #F7F7F7;
+        border-radius: 10px;
+        height: 800px;
+    }
+
+    .texto-meio {
+        padding-top: 20px;
+        text-align: center;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        color: gray;
+    }
+
+    .form-control {
+        display: grid;
+        padding: 1rem 1rem 0rem 1rem;
+        color: #3772FF;
+        font-weight: 600;
+        font-family: 'Poppins';
+        align-items: flex-start;
+    }
+
+    .form-input {
+        padding: 0.5rem;
+        opacity: 0.8;
+        width: 90%;
+        font-size: 85%;
+        font-family: 'Poppins';
+        background: #F7F7F7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+        border-radius: 6px;
+
+        text-align: center;
+    }
+
+    .form-msg {
+        padding: 0.5rem;
+        opacity: 0.8;
+        width: 90%;
+        height: 600%;
+        text-align: start;
+        font-size: 85%;
+        font-family: 'Poppins';
+        background: #F7F7F7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+        border-radius: 6px;
+    }
+
+    .p-baixo {
+        color: #FC7071;
+        text-align: center;
+        font-size: 14px;
+        text-decoration: underline;
+    }
+}
