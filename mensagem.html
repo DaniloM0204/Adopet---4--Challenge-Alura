@@ -9,18 +9,22 @@
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <script src="./index.js"></script>
+    <link rel="shortcut icon" href="./images/logo/icone.jpg">
     <title>Adopet</title>
 </head>
 
 <body>
     <header>
         <img class="vetor-1" src="./images/header/Vector 1.png" alt="Decoração da página">
+        <a href="./feed.html">
             <img class="img-c" src="./images/header/Casa.png"
-            alt="Ícone de casa para clicar e ir para a página inicial">
-            <img class="img-m" src="./images/header/Mensagens.png"
-            alt="Ícone de carta para ir para a aba de mensagem">
+                alt="Ícone de casa para clicar e ir para a página inicial">
+        </a>
+        <a href="./mensagem.html">
+            <img class="img-m" src="./images/header/Mensagens.png" alt="Ícone de carta para ir para a aba de mensagem">
+        </a>
         <img class="vetor-4" src="./images/header/Vector 4.png" alt="Decoração da página">
-        <img class="usuario" src="./images/header/Usuário.png" alt="Ícone de perfil">
+        <img class="img-u" src="./images/header/Usuário.png" alt="Ícone de perfil">
     </header>
     <div class="row">
         <div class="col-3">
@@ -28,15 +32,19 @@
             <section class="box">
                 <form class="form-control">
                     <label for="name">Nome</label>
-                    <input class="form-input" type="text" id="nome" name="nome" pattern="([aA-zZ\s]+)" placeholder="Digite seu nome completo" required>
+                    <input class="form-input" type="text" id="nome" name="nome" pattern="([aA-zZ\s]+)"
+                        placeholder="Digite seu nome completo" required>
                 </form>
                 <form class="form-control">
                     <label for="telefone">Telefone</label>
-                    <input class="form-input" type="text" id="telefone" name="telefone" pattern="^\([1-9]{2}\) [9]{0,1}[6-9]{1}[0-9]{3}\-[0-9]{4}$)" placeholder="Insira seu telefone e/ou Whatsapp" required>
+                    <input class="form-input" type="text" id="telefone" name="telefone"
+                        pattern="^\([1-9]{2}\) [9]{0,1}[6-9]{1}[0-9]{3}\-[0-9]{4}$)"
+                        placeholder="Insira seu telefone e/ou Whatsapp" required>
                 </form>
                 <form class="form-control">
                     <label for="animal">Nome do Animal</label>
-                    <input class="form-input" type="text" id="animal" name="animal" pattern="([aA-zZ\s]+)" placeholder="Digite seu nome completo" required>
+                    <input class="form-input" type="text" id="animal" name="animal" pattern="([aA-zZ\s]+)"
+                        placeholder="Digite seu nome completo" required>
                 </form>
                 <form class="form-control">
                     <label for="Mensagem">Mensagem</label>
@@ -55,4 +63,5 @@
 <footer class="rodape">
     2022 - Desenvolvido por Danilo Machado
 </footer>
+
 </html>
