@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./styles/mensagem.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <script src="./index.js"></script>
+    <title>Adopet</title>
+</head>
+
+<body>
+    <header>
+        <img class="vetor-1" src="./images/header/Vector 1.png" alt="Decoração da página">
+            <img class="img-c" src="./images/header/Casa.png"
+            alt="Ícone de casa para clicar e ir para a página inicial">
+            <img class="img-m" src="./images/header/Mensagens.png"
+            alt="Ícone de carta para ir para a aba de mensagem">
+        <img class="vetor-4" src="./images/header/Vector 4.png" alt="Decoração da página">
+        <img class="usuario" src="./images/header/Usuário.png" alt="Ícone de perfil">
+    </header>
+    <div class="row">
+        <div class="col-3">
+            <p class="paragrafo">Envia uma mensagem para a pessoa ou instituição que está cuidando do animal:</p>
+            <section class="box">
+                <form class="form-control">
+                    <label for="name">Nome</label>
+                    <input class="form-input" type="text" id="nome" name="nome" pattern="([aA-zZ\s]+)" placeholder="Digite seu nome completo" required>
+                </form>
+                <form class="form-control">
+                    <label for="telefone">Telefone</label>
+                    <input class="form-input" type="text" id="telefone" name="telefone" pattern="^\([1-9]{2}\) [9]{0,1}[6-9]{1}[0-9]{3}\-[0-9]{4}$)" placeholder="Insira seu telefone e/ou Whatsapp" required>
+                </form>
+                <form class="form-control">
+                    <label for="animal">Nome do Animal</label>
+                    <input class="form-input" type="text" id="animal" name="animal" pattern="([aA-zZ\s]+)" placeholder="Digite seu nome completo" required>
+                </form>
+                <form class="form-control">
+                    <label for="Mensagem">Mensagem</label>
+                    <input class="form-msg" name="Mensagem" placeholder="Insira sua mensagem " id="Mensagem">
+                </form>
+
+            </section>
+            <div class="botoes">
+                <a href="./usuario.html">
+                    <button class="btn-enviar">Enviar</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+<footer class="rodape">
+    2022 - Desenvolvido por Danilo Machado
+</footer>
+</html>
