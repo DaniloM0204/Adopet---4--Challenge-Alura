@@ -73,6 +73,10 @@ h1 {
     border: 1px outset #FC7071;
 }
 
+img.forma-2 {
+    opacity: 0;
+}
+
 .a-link {
     text-decoration: none;
     color: #fff;
@@ -166,11 +170,15 @@ h1 {
 }
 
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1440px) {
 
     /* Tablets: */
     [class*="col-"] {
         width: 100%;
+    }
+
+    .row {
+        padding-left: 10%;
     }
 
     body {
@@ -182,14 +190,14 @@ h1 {
         position: absolute;
         top: 5%;
         bottom: 92.26%;
-        padding: 0rem 0rem 0rem 2rem;
+        padding: 0 0 0 16%;
     }
 
     .img-m {
         position: absolute;
-        top: 5.23%;
+        top: 5.2%;
         bottom: 92.26%;
-        padding: 0rem 0rem 0rem 7rem;
+        padding: 0 0 0 22%;
     }
 
     .img_i {
@@ -199,45 +207,46 @@ h1 {
         left: 180px;
     }
 
+    .img-u {
+        top: 6%;
+        width: 3%;
+        position: absolute;
+        left: 85%;
+    }
+
     /*Cabeçalho*/
     .vetor-1 {
         position: absolute;
-        width: 333.25px;
-        height: 273.52px;
-        left: 0.02px;
-        top: 0px;
-        opacity: 1.50;
+        width: 35%;
+        height: 37%;
+        left: -1%;
+        top: -1%;
     }
 
     .vetor-4 {
         position: absolute;
-        width: 352.11px;
-        height: 295px;
+        width: 35%;
+        height: 35%;
+        left: 0%;
+        top: 0%;
 
     }
 
-    .logo {
-        margin-top: 50%;
-        margin-bottom: 10%;
-        margin-left: 25.9%;
-    }
-
-    .form-input {
-        width: fit-content;
-    }
-
-    .lnr-eye {
+    .img {
         position: absolute;
-        right: 65px;
-        cursor: pointer;
+        position: absolute;
+        left: 31.38%;
+        right: 66.12%;
+        top: 5.58%;
+        bottom: 92.5%;
     }
 
     .forma-2 {
         position: absolute;
-        left: 0px;
-        top: 380px;
-        opacity: 1.50;
-        transform: matrix(-1, 0, 0, 1, 0, 0);
+        left: 93.3%;
+        top: 17%;
+        width: 7%;
+        height: 70%;
     }
 
     h3 {
@@ -258,7 +267,50 @@ h1 {
     }
 
     .paragrafo {
-        margin-top: 60%;
+        margin: 10% 10% 3% 10%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 550;
+        font-size: 20px;
+        line-height: 24px;
+        color: #3772FF;
+    }
+
+    .logo {
+        margin-top: 50%;
+        margin-bottom: 10%;
+        margin-left: 25.9%;
+    }
+
+    .form-input {
+        width: fit-content;
+    }
+
+    .lnr-eye {
+        position: absolute;
+        right: 65px;
+        cursor: pointer;
+    }
+
+    h3 {
+        margin-top: auto;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .ilustracao-img {
+        height: 400px;
+    }
+
+    .paragrafo {
+        margin-top: 14%;
         bottom: 77.51%;
         text-align: center;
         font-family: 'Poppins';
@@ -350,7 +402,7 @@ h1 {
     }
 
     .rodape {
-        padding: 5%;
+        padding: 3%;
         margin-left: -10%;
         margin-right: -2%;
         background: #36D6AD;
@@ -362,6 +414,10 @@ h1 {
     body {
         background-color: #ffffff;
         color: white;
+    }
+
+    .row {
+        padding-left: 2% ;
     }
 
 
@@ -422,14 +478,6 @@ h1 {
         position: absolute;
         right: 65px;
         cursor: pointer;
-    }
-
-    .forma-2 {
-        position: absolute;
-        left: 0px;
-        top: 380px;
-        opacity: 1.50;
-        transform: matrix(-1, 0, 0, 1, 0, 0);
     }
 
     h3 {
@@ -556,6 +604,7 @@ h1 {
         width: 100%;
     }
 
+
     body {
         background-color: #ffffff;
         color: white;
@@ -620,14 +669,6 @@ h1 {
         position: absolute;
         right: 65px;
         cursor: pointer;
-    }
-
-    .forma-2 {
-        position: absolute;
-        left: 0px;
-        top: 380px;
-        opacity: 1.50;
-        transform: matrix(-1, 0, 0, 1, 0, 0);
     }
 
     h3 {

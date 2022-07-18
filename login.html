@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="./styles/login.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
-    <script src="./index.js"></script>
     <link rel="shortcut icon" href="./images/logo/icone.jpg">
     <title>Adopet</title>
 </head>
@@ -34,24 +33,24 @@
             <img class="forma-2" src="./images/centro/Forma 2.png" alt="Ilustração decorativa lateral">
             <form class="form-control">
                 <label for="email">Email</label>
-                <input class="form-input" type="email" id="email" name="email" placeholder="Insira seu e-mail"
+                <input class="form-input" id="email" type="email" placeholder="Insira seu e-mail"
                     pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
             </form>
             <form class="form-control">
                 <label for="senha">Senha</label>
-                <input class="form-input" type="password" id="senha" name="senha" placeholder="Insira sua senha"
-                    required>
+                <input class="form-input" type="password" id="senha" placeholder="Insira sua senha" pattern="^(?=[^\d_].*?\d)\w(\w|[!@#$%]){7,20}" required>
                 <span class="lnr lnr-eye"></span>
             </form>
             <p class="p-baixo">Esqueci minha senha</p>
             <div class="botoes">
-                <a href="./usuario.html">
+                <a id="submit">
                     <button class="btn-login">Entrar</button>
                 </a>
             </div>
         </div>
     </div>
 </body>
+<script src="./index.js"></script>
 <footer class="rodape">
     2022 - Desenvolvido por Danilo Machado
 </footer>
