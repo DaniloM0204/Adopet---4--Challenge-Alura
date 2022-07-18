@@ -39,10 +39,7 @@
     font-size: 14px;
 }
 
-.img-cat {
-    height: 250px;
-    width: 250px;
-}
+
 
 /*Cabeçalho*/
 
@@ -64,27 +61,6 @@ h1 {
     text-align: right;
 }
 
-/*Corpo*/
-.paragrafo {
-
-    /* Parágrafo */
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* or 150% */
-
-    text-align: center;
-
-    color: #FFFFFF;
-}
-
-.botoes {
-    text-align: center;
-    margin: 30px 0px 90px 0px;
-}
 
 .btn-enviar {
     font-family: 'Poppins';
@@ -112,16 +88,6 @@ h1 {
 }
 
 
-/*Rodapé*/
-.rodape {
-    padding: 10%;
-    margin-bottom: -10%;
-    margin-left: -10%;
-    margin-right: -2%;
-    background: #36D6AD;
-    text-align: center;
-    position: relative;
-}
 
 
 /* For desktop: */
@@ -208,69 +174,6 @@ h1 {
     }
 
     body {
-        background-color: white;
-        color: white;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-
-    /* Tablets: */
-    [class*="col-"] {
-        width: 100%;
-    }
-
-    body {
-        background-color: white;
-        color: white;
-    }
-
-    .img {
-        position: absolute;
-        position: absolute;
-        left: 31.38%;
-        right: 66.12%;
-        top: 5.58%;
-        bottom: 92.5%;
-    }
-
-    /*Cabeçalho*/
-    .vetor-1 {
-        position: absolute;
-        width: 529.81px;
-        height: 434.85px;
-        left: -1.17px;
-        top: -1px;
-        opacity: 1.50;
-
-    }
-
-    .vetor-4 {
-        position: absolute;
-        width: 559.8px;
-        height: 469px;
-        left: 0px;
-        top: 0px;
-
-    }
-
-    .logo {
-        color: blue;
-        margin-top: 50%;
-        margin-left: 33%;
-        bottom: 77.51%;
-    }
-}
-
-
-
-/* Celular pequeno */
-@media screen and (max-width: 360px) {
-    [class*="col-"] {
-        width: 100%;
-    }
-
-    body {
         background-color: #ffffff;
         color: white;
     }
@@ -310,6 +213,396 @@ h1 {
         position: absolute;
         width: 352.11px;
         height: 295px;
+
+    }
+
+    .logo {
+        margin-top: 50%;
+        margin-bottom: 10%;
+        margin-left: 25.9%;
+    }
+
+    .form-input {
+        width: fit-content;
+    }
+
+    .lnr-eye {
+        position: absolute;
+        right: 65px;
+        cursor: pointer;
+    }
+
+    .forma-2 {
+        position: absolute;
+        left: 0px;
+        top: 380px;
+        opacity: 1.50;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    h3 {
+        margin-top: auto;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .ilustracao-img {
+        height: 400px;
+    }
+
+    .paragrafo {
+        margin-top: 60%;
+        bottom: 77.51%;
+        text-align: center;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #3772FF;
+    }
+
+    .box {
+        display: -webkit-inline-box;
+        background: #F6F6F6;
+        width: 360px;
+        line-height: 15%;
+    }
+
+    .animais {
+        margin: 20px;
+    }
+
+    .nome_animal {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 15px;
+        color: #3772FF;
+    }
+
+    .descricao {
+        font-weight: 400;
+        line-height: 5px;
+        color: #737380;
+    }
+
+    .localidade {
+        font-size: 14px;
+        font-weight: 100;
+        color: #737380;
+        line-height: 35px;
+    }
+
+    .responsavel {
+        font-size: 12px;
+        font-weight: 100;
+        color: #737380;
+    }
+
+    .form-control {
+        display: grid;
+        padding: 1rem 1rem 0rem 1rem;
+        color: #3772FF;
+        font-weight: 600;
+        font-family: 'Poppins';
+        align-items: flex-start;
+    }
+
+    .form-input {
+        padding: 0.5rem;
+        opacity: 0.8;
+        width: 90%;
+        font-size: 85%;
+        font-family: 'Poppins';
+        background: #F7F7F7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+        border-radius: 6px;
+
+        text-align: center;
+    }
+
+    .form-msg {
+        padding: 0.5rem;
+        opacity: 0.8;
+        width: 90%;
+        height: 600%;
+        text-align: start;
+        font-size: 85%;
+        font-family: 'Poppins';
+        background: #F7F7F7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+        border-radius: 6px;
+    }
+
+    .p-baixo {
+        color: #FC7071;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .rodape {
+        padding: 5%;
+        margin-left: -10%;
+        margin-right: -2%;
+        background: #36D6AD;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: #ffffff;
+        color: white;
+    }
+
+
+    .img-c {
+        position: absolute;
+        top: 5%;
+        bottom: 92.26%;
+        padding: 0 0 0 30%;
+    }
+
+    .img-m {
+        position: absolute;
+        top: 5.2%;
+        bottom: 92.26%;
+        padding: 0 0 0 43%;
+    }
+
+    .img_i {
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        left: 180px;
+    }
+
+    .img-u {
+        top: 3%;
+        width: 7%;
+        position: absolute;
+        left: 85%;
+    }
+
+    /*Cabeçalho*/
+    .vetor-1 {
+        position: absolute;
+        width: 68%;
+        height: 30%;
+        opacity: 1.50;
+    }
+
+    .vetor-4 {
+        position: absolute;
+        width: 72%;
+        height: 35%;
+
+    }
+
+    .logo {
+        margin-top: 50%;
+        margin-bottom: 10%;
+        margin-left: 25.9%;
+    }
+
+    .form-input {
+        width: fit-content;
+    }
+
+    .lnr-eye {
+        position: absolute;
+        right: 65px;
+        cursor: pointer;
+    }
+
+    .forma-2 {
+        position: absolute;
+        left: 0px;
+        top: 380px;
+        opacity: 1.50;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+
+    h3 {
+        margin-top: auto;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .ilustracao-img {
+        height: 400px;
+    }
+
+    .paragrafo {
+        margin-top: 32%;
+        bottom: 77.51%;
+        text-align: center;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #3772FF;
+    }
+
+    .box {
+        display: -webkit-inline-box;
+        background: #F6F6F6;
+        width: 360px;
+        line-height: 15%;
+    }
+
+    .animais {
+        margin: 20px;
+    }
+
+    .nome_animal {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 15px;
+        color: #3772FF;
+    }
+
+    .descricao {
+        font-weight: 400;
+        line-height: 5px;
+        color: #737380;
+    }
+
+    .localidade {
+        font-size: 14px;
+        font-weight: 100;
+        color: #737380;
+        line-height: 35px;
+    }
+
+    .responsavel {
+        font-size: 12px;
+        font-weight: 100;
+        color: #737380;
+    }
+
+    .form-control {
+        display: grid;
+        padding: 1rem 1rem 0rem 1rem;
+        color: #3772FF;
+        font-weight: 600;
+        font-family: 'Poppins';
+        align-items: flex-start;
+    }
+
+    .form-input {
+        padding: 0.5rem;
+        opacity: 0.8;
+        width: 90%;
+        font-size: 85%;
+        font-family: 'Poppins';
+        background: #F7F7F7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+        border-radius: 6px;
+
+        text-align: center;
+    }
+
+    .form-msg {
+        padding: 0.5rem;
+        opacity: 0.8;
+        width: 90%;
+        height: 600%;
+        text-align: start;
+        font-size: 85%;
+        font-family: 'Poppins';
+        background: #F7F7F7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+        border-radius: 6px;
+    }
+
+    .p-baixo {
+        color: #FC7071;
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    .rodape {
+        padding: 5%;
+        margin-left: -10%;
+        margin-right: -2%;
+        background: #36D6AD;
+        text-align: center;
+    }
+}
+
+/* Celular pequeno */
+@media screen and (max-width: 360px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    body {
+        background-color: #ffffff;
+        color: white;
+    }
+
+    .img-c {
+        position: absolute;
+        top: 5%;
+        bottom: 92.26%;
+        padding: 0rem 0rem 0rem 2rem;
+    }
+
+    .img-m {
+        position: absolute;
+        top: 5.23%;
+        bottom: 92.26%;
+        padding: 0rem 0rem 0rem 7rem;
+    }
+
+    .img_i {
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        left: 180px;
+    }
+
+    .img-u {
+        top: 3%;
+        width: 13%;
+        position: absolute;
+        left: 75%;
+    }
+
+    /*Cabeçalho*/
+    .vetor-1 {
+        position: absolute;
+        width: 94%;
+        height: 25%;
+        opacity: 1.50;
+        left: -1%;
+        top: -1%;
+    }
+
+    .vetor-4 {
+        position: absolute;
+        width: 95%;
+        height: 25%;
 
     }
 

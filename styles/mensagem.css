@@ -52,34 +52,12 @@ h1 {
 }
 
 
-.img-u {
-    top: 32px;
-    position: absolute;
-    left: 264px;
-}
-
 
 .ctt {
     padding: 15px;
     text-align: right;
 }
 
-/*Corpo*/
-.paragrafo {
-
-    /* Parágrafo */
-
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    /* or 150% */
-
-    text-align: center;
-
-    color: #FFFFFF;
-}
 
 .botoes {
     text-align: center;
@@ -205,11 +183,177 @@ h1 {
     /* Tablets: */
     [class*="col-"] {
         width: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
     }
 
     body {
         background-color: white;
         color: white;
+    }
+
+    .img-c {
+        position: absolute;
+        top: 5%;
+        bottom: 92.26%;
+        padding: 0 0 0 18%;
+        width: 19%;
+    }
+
+    .img-m {
+        position: absolute;
+        top: 5.2%;
+        bottom: 92.26%;
+        padding: 0 0 0 22%;
+    }
+
+    .img_i {
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        left: 180px;
+    }
+
+    .img-u {
+        top: 6%;
+        width: 3%;
+        position: absolute;
+        left: 85%;
+    }
+
+    /*Cabeçalho*/
+    .vetor-1 {
+        position: absolute;
+        width: 33%;
+        height: 34%;
+        left: -1%;
+        top: -1%;
+    }
+
+    .vetor-4 {
+        position: absolute;
+        width: 35%;
+        height: 35%;
+        left: 0%;
+        top: 0%;
+
+    }
+
+    .img {
+        position: absolute;
+        position: absolute;
+        left: 31.38%;
+        right: 66.12%;
+        top: 5.58%;
+        bottom: 92.5%;
+    }
+
+    .forma-2 {
+        position: absolute;
+        left: 93.3%;
+        top: 45%;
+        width: 7%;
+        height: 80%
+    }
+
+    h3 {
+        margin-top: auto;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .ilustracao-img {
+        height: 400px;
+    }
+
+    .paragrafo {
+        margin: 10% 10% 3% 10%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 550;
+        font-size: 20px;
+        line-height: 24px;
+        color: #3772FF;
+    }
+
+
+    .box {
+        padding-left: 2%;
+        background: #F7F7F7;
+        border-radius: 4%;
+        height: 800px;
+        width: 35%;
+
+    }
+
+    .texto-meio {
+        padding-top: 20px;
+        text-align: center;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        color: gray;
+    }
+
+    .form-control {
+        display: grid;
+        padding: 1rem 1rem 0rem 1rem;
+        color: #3772FF;
+        font-weight: 600;
+        font-family: 'Poppins';
+        align-items: flex-start;
+        line-height: 280%;
+    }
+
+    .form-input {
+        padding: 0.5rem;
+        opacity: 0.8;
+        width: 90%;
+        font-size: 85%;
+        font-family: 'Poppins';
+        background: #FFFFFF;
+        mix-blend-mode: normal;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 6px;
+    }
+
+    .form-msg {
+        padding: 0.5rem;
+        opacity: 0.8;
+        width: 90%;
+        height: 600%;
+        text-align: start;
+        font-size: 85%;
+        font-family: 'Poppins';
+        background: #F7F7F7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+        border-radius: 6px;
+    }
+
+    .p-baixo {
+        color: #FC7071;
+        text-align: center;
+        font-size: 14px;
+        text-decoration: underline;
+    }
+
+    .rodape {
+        padding: 5%;
+        margin-left: -10%;
+        margin-right: -2%;
+        background: #36D6AD;
+        text-align: center;
     }
 }
 
@@ -225,6 +369,49 @@ h1 {
         color: white;
     }
 
+    .img-c {
+        position: absolute;
+        top: 5%;
+        bottom: 92.26%;
+        padding: 0 0 0 30%;
+    }
+
+    .img-m {
+        position: absolute;
+        top: 5.2%;
+        bottom: 92.26%;
+        padding: 0 0 0 43%;
+    }
+
+    .img_i {
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        left: 180px;
+    }
+
+    .img-u {
+        top: 3%;
+        width: 7%;
+        position: absolute;
+        left: 85%;
+    }
+
+    /*Cabeçalho*/
+    .vetor-1 {
+        position: absolute;
+        width: 68%;
+        height: 30%;
+        opacity: 1.50;
+    }
+
+    .vetor-4 {
+        position: absolute;
+        width: 72%;
+        height: 35%;
+
+    }
+
     .img {
         position: absolute;
         position: absolute;
@@ -234,31 +421,107 @@ h1 {
         bottom: 92.5%;
     }
 
-    /*Cabeçalho*/
-    .vetor-1 {
+    .forma-2 {
         position: absolute;
-        width: 529.81px;
-        height: 434.85px;
-        left: -1.17px;
-        top: -1px;
-        opacity: 1.50;
-
+        left: 86.3%;
+        top: 23%;
+        width: 15%;
+        height: 49%;
     }
 
-    .vetor-4 {
-        position: absolute;
-        width: 559.8px;
-        height: 469px;
-        left: 0px;
-        top: 0px;
+    h3 {
+        margin-top: auto;
 
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 26px;
+
+        text-align: center;
+
+        color: #FFFFFF;
     }
 
-    .logo {
-        color: blue;
-        margin-top: 50%;
-        margin-left: 33%;
-        bottom: 77.51%;
+    .ilustracao-img {
+        height: 400px;
+    }
+
+    .paragrafo {
+        margin: 35% 10% 3% 10%;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #3772FF;
+    }
+
+
+    .box {
+        background: #F7F7F7;
+        border-radius: 4%;
+        height: 660px;
+        width: 80%;
+    }
+
+    .texto-meio {
+        padding-top: 20px;
+        text-align: center;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        color: gray;
+    }
+
+    .form-control {
+        display: grid;
+        padding: 1rem 1rem 0rem 1rem;
+        color: #3772FF;
+        font-weight: 600;
+        font-family: 'Poppins';
+        align-items: flex-start;
+    }
+
+    .form-input {
+        padding: 0.5rem;
+        opacity: 0.8;
+        width: 90%;
+        font-size: 85%;
+        font-family: 'Poppins';
+        background: #F7F7F7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+        border-radius: 6px;
+
+        text-align: center;
+    }
+
+    .form-msg {
+        padding: 0.5rem;
+        opacity: 0.8;
+        width: 90%;
+        height: 600%;
+        text-align: start;
+        font-size: 85%;
+        font-family: 'Poppins';
+        background: #F7F7F7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+        border-radius: 6px;
+    }
+
+    .p-baixo {
+        color: #FC7071;
+        text-align: center;
+        font-size: 14px;
+        text-decoration: underline;
+    }
+
+    .rodape {
+        padding: 5%;
+        margin-left: -10%;
+        margin-right: -2%;
+        background: #36D6AD;
+        text-align: center;
     }
 }
 
@@ -287,6 +550,13 @@ h1 {
         top: 5.23%;
         bottom: 92.26%;
         padding: 0rem 0rem 0rem 7rem;
+    }
+
+    .img-u {
+        top: 3%;
+        position: absolute;
+        left: 75%;
+        width: 15%;
     }
 
     /*Cabeçalho*/
