@@ -9,6 +9,13 @@
     display: block;
 }
 
+input-mensagem-erro {
+    color: var(--cor-aviso);
+    display: block;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
 [class*="col-"] {
     float: left;
     padding: 15px;
@@ -39,10 +46,6 @@
     font-size: 14px;
 }
 
-.img-cat {
-    height: 250px;
-    width: 250px;
-}
 
 /*Cabeçalho*/
 
@@ -77,6 +80,7 @@ h1 {
 }
 
 .btn-cadastro {
+    cursor: pointer;
     font-family: 'Poppins';
     font-size: inherit;
     color: white;

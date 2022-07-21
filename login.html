@@ -9,6 +9,7 @@
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
     <link rel="shortcut icon" href="./images/logo/icone.jpg">
+    <script src="./js/login.js"></script>
     <title>Adopet</title>
 </head>
 
@@ -38,19 +39,17 @@
             </form>
             <form class="form-control">
                 <label for="senha">Senha</label>
-                <input class="form-input" type="password" id="senha" placeholder="Insira sua senha" pattern="^(?=[^\d_].*?\d)\w(\w|[!@#$%]){7,20}" required>
+                <input class="form-input" type="password" id="senha" placeholder="Insira sua senha"
+                    pattern="^(?=[^\d_].*?\d)\w(\w|[!@#$%]){7,20}" required>
                 <span class="lnr lnr-eye"></span>
             </form>
             <p class="p-baixo">Esqueci minha senha</p>
             <div class="botoes">
-                <a id="submit">
-                    <button class="btn-login">Entrar</button>
-                </a>
+                    <input type="Button" class="btn-login" href="./usuario.html" onclick="Enviar();" value="Entrar"/>
             </div>
         </div>
     </div>
 </body>
-<script src="./index.js"></script>
 <footer class="rodape">
     2022 - Desenvolvido por Danilo Machado
 </footer>

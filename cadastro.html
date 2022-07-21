@@ -27,44 +27,38 @@
         <img class="patas" src="./images/header/Patas.png"
             alt="Três patas diferentes de animais domésticos,dois gatos e um cachorro">
     </header>
-    <div class="row">
-        <div class="col-3">
-            <img class="logo" src="./images/centro/Logo_azul.png" alt="Decoração da página">
-            <p class="paragrafo">Ainda não tem cadastro?</p>
-            <p class="paragrafo">Então, antes de buscar seu melhor amigo, precisamos de aluns dados: </p>
-            <form class="form-control">
-                <label for="email">Email</label>
-                <input class="form-input" type="email" id="email" name="email" placeholder="adopet@hotmail.com"
-                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
-            </form>
-            <form class="form-control">
-                <label for="name">Nome</label>
-                <input class="form-input" type="text" id="nome" name="nome" pattern="([aA-zZ\s]+)"
-                    placeholder="Digite seu nome completo" required>
-            </form>
-            <form class="form-control">
-                <label for="senha">Senha</label>
-                <input class="form-input" type="password" name="senha" placeholder="Crie sua senha" required>
-                <span class="lnr lnr-eye"></span>
-            </form>
-            <form class="form-control">
-                <label for="confirmacao">Confirma sua senha</label>
-                <input class="form-input" type="password" placeholder="Repita a senha criada" name="senha"
-                    placeholder="required">
-                <span class="lnr lnr-eye"></span>
-            </form>
-            <img class="forma-2" src="./images/centro/Forma 2.png" alt="Ilustração decorativa lateral">
-            <div class="botoes">
-                <a onclick="mensagem" href="./feed.html">
-                    <button class="btn-cadastro">Cadastrar</button>
-                </a>
-            </div>
+        <img class="logo" src="./images/centro/Logo_azul.png" alt="Decoração da página">
+        <p class="paragrafo">Ainda não tem cadastro?</p>
+        <p class="paragrafo">Então, antes de buscar seu melhor amigo, precisamos de aluns dados: </p>
+
+        <form action="./feed.html" class="form-control">
+            <label for="email">Email</label>
+            <input name="email" id="email" class="form-input" type="email" placeholder="Digite seu e-mail" data-tipo="email" required>
+        </form>
+
+        <form class="form-control">
+            <label for="nome">Nome</label>
+            <input name="nome" id="nome" class="form-input" type="text" placeholder="Digite o nome completo" data-tipo="nome" required>
+        </form>
+        
+        <form class="form-control">
+            <label for="senha">Senha</label>
+            <input name="senha" id="senha" class="form-input" type="password" placeholder="Crie sua senha" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" title="A senha deve conter entre 6 a 12 caracteres, deve conter pelo menos uma letra maiúscula, um número e não deve conter símbolos." data-tipo="senha" required>
+        </form>
+
+        <form class="form-control">
+            <label for="confirmacao">Confirma sua senha</label>
+            <input type="password" placeholder="Repita a senha criada acima" class="form-input"
+                pattern="^(?=[^\d_].*?\d)\w(\w|[!@#$%]){7,20}" id="confirmaSenha" required="true">
+        </form>
+        <img class="forma-2" src="./images/centro/Forma 2.png" alt="Ilustração decorativa lateral">
+        <div class="botoes">
+            <button type="submit" class="btn-cadastro" id="botaoCadastro">Cadastrar</button>
         </div>
-    </div>
+    <footer class="rodape">
+        2022 - Desenvolvido por Danilo Machado
+    </footer>
+    <script src="./js/cadastro.js"></script>
 </body>
-<script src="./index.js"></script>
-<footer class="rodape">
-    2022 - Desenvolvido por Danilo Machado
-</footer>
 
 </html>
