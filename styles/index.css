@@ -185,13 +185,13 @@ opacity: 0.1;
     .img-c {
         position: absolute;
         top: 3%;
-        padding: 0rem 0rem 0rem 13rem;
+        padding: 0rem 0rem 0rem 22rem;
     }
 
     .img-m {
         position: absolute;
         top: 3%;
-        padding: 0rem 0rem 0rem 20rem;
+        padding: 0rem 0rem 0rem 28rem;
     }
 
     .img {
@@ -205,14 +205,14 @@ opacity: 0.1;
     /*Cabeçalho*/
     .vetor-1 {
         position: absolute;
-        width: 75%;
+        width: 52%;
         height: 25%;
         opacity: 1.50;
     }
 
     .vetor-4 {
         position: absolute;
-        width: 80%;
+        width: 55%;
         height: 30%;
         left: 0px;
         top: 0px;
@@ -221,7 +221,7 @@ opacity: 0.1;
 
     .forma-2 {
         position: absolute;
-        left: 84.5%;
+        left: 92.5%;
         top: 20%;
         height: 65%;
         opacity: 1.50;
@@ -239,15 +239,15 @@ opacity: 0.1;
     }
 
     .ilustracao-img {
-        width: 60%;
-        margin-left: 17%;
+        width: 30%;
+        margin-left: 32%;
     }
 
 
     .logo {
         margin-top: 30%;
-        margin-left: 32%;
-        width: 35%;
+        margin-left: 38%;
+        width: 25%;
     }
 
     .paragrafo {
@@ -387,8 +387,6 @@ opacity: 0.1;
     }
 }
 
-
-
 /* Celular pequeno */
 @media screen and (max-width: 360px) {
     [class*="col-"] {
@@ -417,7 +415,7 @@ opacity: 0.1;
         margin-top: -10%;
         margin-bottom: -10%;
         margin-left: -10%;
-        margin-right: -2%;
+        margin-right: -11%;
         background: #36D6AD;
         text-align: center;
         position: relative;
@@ -499,8 +497,6 @@ opacity: 0.1;
         font-size: 16px;
         line-height: 24px;
 
-        width: 0;
-        margin-left: 0;
         color: #FFFFFF;
     }
 
